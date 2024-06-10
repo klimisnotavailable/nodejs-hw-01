@@ -21,7 +21,6 @@ try {
             newData.push(element);
         }
     });
-    console.log(newData);
     fs.writeFile(PATH_DB,JSON.stringify(newData));
 } catch (error) {
     console.log(error);
